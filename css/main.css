@@ -196,6 +196,7 @@ body {
 
 	.stopwatch {
 		width: 50%;
+		margin-left: 0;
 	}
 
 	.four-years {
@@ -218,6 +219,7 @@ body {
 
 	.half-circle {
 		width: 40%;
+		margin-left: auto;
 	}
 
 	.miner {
