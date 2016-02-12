@@ -23,6 +23,10 @@ body {
   margin: 0;
 }
 
+.banner {
+	width: 100%;
+}
+
 .section-one {
 	position: relative;
 }
