@@ -154,3 +154,66 @@ body {
 .receipt {
 	width: 100%;
 }
+
+@media only screen and (min-width: 38em) {
+	.one-in-ten {
+		top: 13%;
+		padding-left: 2em;
+		padding-right: 3em;
+		left: 12%;
+	}
+
+	.house {
+		width: 45%;
+		top: 35%;
+		left: 10%;
+	}
+
+	.households {
+		right: 5%;
+		top: 55%;
+		padding-left: 45%;
+	}
+
+	.section-two {
+		text-align: left;
+	}
+
+	.stopwatch {
+		width: 50%;
+	}
+
+	.four-years {
+		position: absolute;
+		width: 40%;
+		right: 5%;
+		top: 20%;
+	}
+
+	.three-months {
+		position: absolute;
+		width: 40%;
+		right: 5%;
+		top: 55%;
+	}
+
+	.section-three {
+		text-align: right;
+	}
+
+	.half-circle {
+		width: 40%;
+	}
+
+	.miner {
+		width: 40%;
+	}
+
+	.amount {
+		position: absolute;
+		left: 5%;
+		width: 50%;
+		top: 30%;
+		margin-right: 2em;
+	}
+}
