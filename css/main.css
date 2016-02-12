@@ -23,14 +23,23 @@ body {
   margin: 0;
 }
 
-main {
-  position: relative;
+.section-one {
+	position: relative;
 }
 
 .ten-ppl {
   position: absolute;
-  top: 10%;
-  width: 60%;
+  top: 4%;
+  width: 70%;
+}
+
+.one-in-ten {
+	color: #fff;
+	position: absolute;
+	top: 9%;
+	left: 12%;
+	padding-left: 1em;
+	padding-right: 3em;
 }
 
 .intro {
@@ -50,7 +59,7 @@ main {
 .photo {
   position: absolute;
   bottom: 5%;
-  left: 26%;
+  left: 25%;
   width: 20%;
   z-index: 1;
 }
@@ -65,4 +74,83 @@ main {
   bottom: 1%;
   left: 20%;
   width: 60%;
+}
+
+.house {
+	position: absolute;
+	width: 30%;
+	top: 50%;
+	right: 35%;
+}
+
+.households {
+	position: absolute;
+	padding-left: 1em;
+	padding-right: 1em;
+	left: 11%;
+	color: #fff;
+	z-index: 5;
+	top: 38%;
+}
+
+.section-two {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+.stopwatch {
+	width: 80%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.four-years {
+	background-color: #00a0c3;
+	padding: 1em;
+	color: #fff;
+	margin-left: 1em;
+	margin-right: 1em;
+	border-radius: 20px;
+}
+
+.three-months {
+	background-color: #45baeb;
+	padding: 1em;
+	color: #fff;
+	margin-left: 1em;
+	margin-right: 1em;
+	border-radius: 20px;
+	margin-bottom: 0;
+}
+
+.section-three {
+	position: relative;
+}
+
+.miner {
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 15%;
+}
+
+.amount {
+	background-color: #00B8B8;
+	color: #fff;
+	padding: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.fourth-section {
+	position: relative;
+}
+
+.receipt {
+	width: 100%;
 }
