@@ -25,6 +25,10 @@ svg {
 	height: 100%;
 }
 
+p {
+	margin: 0;
+}
+
 body {
   margin: 0;
 }
@@ -81,6 +85,12 @@ body {
 	width: 100%;
 }
 
+.arm-short {
+	display: none;
+	z-index: 2;
+	width: 100%;
+}
+
 .card {
   position: absolute;
   bottom: 1%;
@@ -113,6 +123,8 @@ body {
 	text-align: center;
 	width: 100%;
 	height: auto;
+	padding-bottom: 1em;
+	background-color: #00b8b8;
 }
 
 .stopwatch {
@@ -142,6 +154,8 @@ body {
 
 .section-three {
 	position: relative;
+	background-color: #00a0c3;
+	padding-bottom: 1em;
 }
 
 .miner {
@@ -203,14 +217,14 @@ body {
 		position: absolute;
 		width: 40%;
 		right: 5%;
-		top: 20%;
+		top: 10%;
 	}
 
 	.three-months {
 		position: absolute;
 		width: 40%;
 		right: 5%;
-		top: 55%;
+		top: 50%;
 	}
 
 	.section-three {
@@ -233,4 +247,88 @@ body {
 		top: 30%;
 		margin-right: 2em;
 	}
+}
+
+@media only screen and (min-width: 55em) {
+	.house {
+		width: 25%;
+		left: 15%;
+		top: 44%;
+	}
+
+	.households {
+		left: 40%;
+		padding: 0;
+		font-size: 1.3em;
+	}
+
+	.intro {
+		position: relative;
+	}
+
+	.title {
+		width: 45%;
+		text-align: right;
+		position: absolute;
+	}
+
+	.after-title {
+		padding-left: 50%;
+		margin: 0;
+		text-align: left;
+	}
+
+	.one-in-ten {
+		font-size: 1.5em;
+		line-height: 1.5;
+		top: 12%;
+	}
+
+	.arm {
+		display: none;
+	}
+
+	.arm-short {
+		display: block;
+	}
+
+	.stopwatch {
+		width: 30%;
+	}
+
+	.four-years {
+		width: 28%;
+		left: 30%;
+		top: 30%;
+	}
+
+	.three-months {
+		width: 28%;
+		left: 63%;
+		top: 30%;
+	}
+
+	.section-three {
+		width: 100%;
+		padding-top: .5em;
+		margin: 0;
+	}
+
+	.amount {
+		top: 15%;
+	}
+
+	.fourth-section {
+		width: 40%;
+		display: inline-block;
+		position: absolute;
+		top: 40%;
+		left: 10%;
+	}
+
+	.bottom {
+		background-color: #00a0c3;
+		position: relative;
+	}
+
 }
